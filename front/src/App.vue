@@ -47,6 +47,11 @@ img {
   padding: 32px;
 }
 
+.card__logo {
+  margin-left: 25%;
+  width: 50%;
+}
+
 .card__title {
   text-align: center;
   font-weight: 800;

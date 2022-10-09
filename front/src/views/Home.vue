@@ -20,7 +20,6 @@ import { mapState } from 'vuex'
 export default {
     name: 'Home',
     mounted: function () {
-        console.log(this.$store.state.user);
         // Si userId -1 on retourne sur '/' pour se loger 
         if (this.$store.state.user.userId == -1) {
             this.$router.push('/');

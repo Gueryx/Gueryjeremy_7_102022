@@ -1,6 +1,9 @@
 <template>
     <div class="card">
 
+        <div class="card__logo">
+            <img src="../../public/images/icon-left-font-monochrome-black.png" alt="logo entreprise">
+        </div>
         <!-- En mode Login -->
         <h1 class="card__title" v-if="mode == 'login'">Connexion</h1>
 
